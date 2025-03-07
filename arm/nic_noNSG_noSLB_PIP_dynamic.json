@@ -35,7 +35,7 @@
             "apiVersion": "[variables('apiVersion')]",
             "location": "[parameters('location')]",
             "properties": {
-                "publicIPAllocationMethod": "Dynamic",
+                "publicIPAllocationMethod": "Static",
                 "idleTimeoutInMinutes": 4
             },
             "resources": [],
