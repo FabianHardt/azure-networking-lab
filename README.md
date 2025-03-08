@@ -133,21 +133,10 @@ If you have multiple subscriptions and the wrong one is being selected, you can 
 ```bash
 # Set some variables (bash)
 rg=vnetTest
-location=eastus2
+location=germanywestcentral
 location2ary=westus
 adminPassword='Microsoft123!'
-template_uri=https://raw.githubusercontent.com/erjosito/azure-networking-lab/master/arm/NetworkingLab_master.json
-```
-
-For Windows Powershell, this is how you would declare variables:
-
-```powershell
-# Set some variables (PowerShell)
-$rg = "vnetTest"
-$location = "eastus2"
-$location2ary = "westus"
-$adminPassword = "Microsoft123!"
-$template_uri = "https://raw.githubusercontent.com/erjosito/azure-networking-lab/master/arm/NetworkingLab_master.json"
+template_uri=https://raw.githubusercontent.com/fabianhardt/azure-networking-lab/master/arm/NetworkingLab_master.json
 ```
 
 Now you can create the resource group:
